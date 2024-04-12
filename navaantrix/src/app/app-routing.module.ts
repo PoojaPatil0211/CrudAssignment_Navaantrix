@@ -5,7 +5,7 @@ import { EditComponent } from './edit/edit.component';
 import { FormComponent } from './form/form.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/list', pathMatch: 'full' },
+  //{ path: '', redirectTo: '/list', pathMatch: 'full' },
   {path: 'form', component:FormComponent},
   { path: 'list', component: ListComponent },
   { path: 'edit/:id', component: EditComponent } // Route with parameter for item ID
